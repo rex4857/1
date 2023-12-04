@@ -1,0 +1,116 @@
+/* -------------------------------------------------------------------------- */
+/*                                CUSTOMIZE CSS                               */
+/* -------------------------------------------------------------------------- */
+/* prettier-ignore */
+
+.nav-tabs.user-details-tab .nav-link {
+  /* color: var(--falcon-gray-400) !important; */
+  color: var(--falcon-light);
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border-radius: 0;
+}
+.nav-tabs.user-details-tab .nav-link:not(.active):hover {
+  border-color: transparent !important;
+  color: var(--falcon-light) !important;
+  background-color: #18519d;
+}
+.nav-tabs.user-details-tab .nav-link.active {
+  border-bottom: 1px solid var(--falcon-primary);
+  background-color: var(--falcon-light); /*(var(--falcon-gray-200);*/
+  color: var(--falcon-primary) !important;
+}
+
+.nav-tabs.user-details-tab .nav-link.active h6 {
+  color: var(
+    --falcon-primary
+  ) !important; /* var(--falcon-success) !important; */
+  /* font-size: 1.05rem; */
+}
+
+.user-details-card {
+  /* bottom:0; */
+  position: fixed;
+  /* overflow-y:scroll; */
+  overflow-x: hidden;
+  /* width: 1420px !important; */
+  z-index: 1;
+  /* --falcon-gutter-x: 0 !important; */
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.bg-gray-200 {
+  background-color: var(--falcon-gray-200);
+}
+
+.bg-gray-300 {
+  background-color: var(--falcon-gray-300);
+}
+
+.text-empwr {
+  color: var(--falcon-primary);
+}
+
+.text-connect {
+  color: var(--falcon-primary);
+  text-align: right;
+  margin-top: -10px !important;
+}
+
+.client-top-margin {
+  margin-top: 113px;
+}
+
+.client-name-nav {
+  margin-left: 10px;
+  margin-top: 13px;
+  color: var(--falcon-gray-600) !important;
+}
+
+.card-table {
+  box-shadow: none !important;
+  border-radius: 0% !important;
+}
+
+.client-onboarding-card {
+  width: 100%;
+}
+
+.nav-tabs.client-onboarding-card .nav-link {
+  /* color: var(--falcon-gray-400) !important; */
+  color: var(--falcon-light);
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border-radius: 0;
+  font-size: 1rem;
+}
+
+.nav-tabs.client-onboarding-card .nav-link:not(.active):hover {
+  border-color: transparent !important;
+  color: var(--falcon-light) !important;
+  background-color: #18519d;
+  font-size: 1rem;
+}
+
+.nav-tabs.client-onboarding-card .nav-link.active {
+  border-bottom: 1px solid var(--falcon-primary);
+  background-color: var(--falcon-light);
+  color: var(--falcon-primary) !important;
+  font-size: 1rem;
+}
+
+.nav-tabs.client-onboarding-card .nav-link.active h6 {
+  color: var(--falcon-primary) !important;
+  font-size: 1rem;
+}
+
+.signature-container {
+  border: 1px dashed black; /* Add your desired border style here */
+  width: 420px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=user.css.map*/
